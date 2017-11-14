@@ -1,0 +1,62 @@
+[INFO  - 2017-11-14T02:46:33.052Z] GhostDriver - Main - running on port 53995
+[INFO  - 2017-11-14T02:46:33.657Z] Session [06948740-c8e6-11e7-b308-7b8d9eb47c2a] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-11-14T02:46:33.657Z] Session [06948740-c8e6-11e7-b308-7b8d9eb47c2a] - page.customHeaders:  - {}
+[INFO  - 2017-11-14T02:46:33.657Z] Session [06948740-c8e6-11e7-b308-7b8d9eb47c2a] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-11-14T02:46:33.657Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 06948740-c8e6-11e7-b308-7b8d9eb47c2a
+[ERROR - 2017-11-14T02:46:34.036Z] Session [06948740-c8e6-11e7-b308-7b8d9eb47c2a] - page.onError - msg: TypeError: null is not an object (evaluating 'ua.match(/version\/([\d.]+)/)[1]')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-14T02:46:34.037Z] Session [06948740-c8e6-11e7-b308-7b8d9eb47c2a] - page.onError - stack:
+  getBrowserVersion (http://172.88.1.200/js/jquery/plugins/client/jquery.client_wev8.js:46)
+  (anonymous function) (http://172.88.1.200/js/jquery/plugins/client/jquery.client_wev8.js:158)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-14T02:46:34.047Z] Session [06948740-c8e6-11e7-b308-7b8d9eb47c2a] - page.onError - msg: TypeError: undefined is not an object (evaluating '$.client.browserVersion')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-14T02:46:34.047Z] Session [06948740-c8e6-11e7-b308-7b8d9eb47c2a] - page.onError - stack:
+  global code (http://172.88.1.200/login/Login.jsp?logintype=1:49)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-14T02:46:34.049Z] Session [06948740-c8e6-11e7-b308-7b8d9eb47c2a] - page.onError - msg: TypeError: undefined is not an object (evaluating 'jQuery.client.version')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-14T02:46:34.049Z] Session [06948740-c8e6-11e7-b308-7b8d9eb47c2a] - page.onError - stack:
+  global code (http://172.88.1.200/login/Login.jsp?logintype=1:109)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-14T02:46:35.503Z] Session [06948740-c8e6-11e7-b308-7b8d9eb47c2a] - page.onError - msg: TypeError: null is not an object (evaluating 'ua.match(/version\/([\d.]+)/)[1]')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-14T02:46:35.503Z] Session [06948740-c8e6-11e7-b308-7b8d9eb47c2a] - page.onError - stack:
+  getBrowserVersion (http://172.88.1.200/js/jquery/plugins/client/jquery.client_wev8.js:46)
+  (anonymous function) (http://172.88.1.200/js/jquery/plugins/client/jquery.client_wev8.js:158)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-14T02:46:35.891Z] Session [06948740-c8e6-11e7-b308-7b8d9eb47c2a] - page.onError - msg: TypeError: null is not an object (evaluating 'ua.match(/version\/([\d.]+)/)[1]')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-14T02:46:35.891Z] Session [06948740-c8e6-11e7-b308-7b8d9eb47c2a] - page.onError - stack:
+  getBrowserVersion (http://172.88.1.200/js/jquery/plugins/client/jquery.client_wev8.js:46)
+  (anonymous function) (http://172.88.1.200/js/jquery/plugins/client/jquery.client_wev8.js:158)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-14T02:46:36.130Z] Session [06948740-c8e6-11e7-b308-7b8d9eb47c2a] - page.onError - msg: TypeError: null is not an object (evaluating 'ua.match(/version\/([\d.]+)/)[1]')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-14T02:46:36.130Z] Session [06948740-c8e6-11e7-b308-7b8d9eb47c2a] - page.onError - stack:
+  getBrowserVersion (http://172.88.1.200/js/jquery/plugins/client/jquery.client_wev8.js:46)
+  (anonymous function) (http://172.88.1.200/js/jquery/plugins/client/jquery.client_wev8.js:158)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-14T02:46:36.724Z] Session [06948740-c8e6-11e7-b308-7b8d9eb47c2a] - page.onError - msg: TypeError: undefined is not an object (evaluating 'jQuery.client.browser')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-14T02:46:36.724Z] Session [06948740-c8e6-11e7-b308-7b8d9eb47c2a] - page.onError - stack:
+  setMainElementHeight (http://172.88.1.200/wui/main.jsp?templateId=1:3888)
+  syncLMHeight (http://172.88.1.200/wui/main.jsp?templateId=1:3541)
+  (anonymous function) (http://172.88.1.200/wui/main.jsp?templateId=1:3107)
+  ready (http://172.88.1.200/wui/common/jquery/jquery.min_wev8.js:16)
+  u (http://172.88.1.200/wui/common/jquery/jquery.min_wev8.js:24)
+
+  phantomjs://platform/console++.js:263 in error

@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% include 'nav.html' %}
+<div class="col-xs-10 table-bordered" style="margin-top: 20px;padding: 10px 100px 10px;background-color:aliceblue">
+        <form action="/search/" method="post">
+                {% csrf_token %}
+                <div class="col-lg-12">
+                        <div class="input-group form-group">
+                                <input type="text" class="form-control" placeholder="输入问题" name="question">
+                                <span class="input-group-btn">
+                                        <button class="btn btn-primary" type="submit" id="search">搜索</button>
+                                </span>
+                        </div>
+                </div>
+        </form>
+        <div class="col-lg-12 table-bordered">
+                <p style="position:absolute;padding:100px;z-index:-1;color:coral;">先尝试搜索问题，如果没有找到解决办法，再提交你的问题</p>
+                <ul>
+                {% for i in data %}
+                        <li><a class="btn btn-lg">{{i.title}}</a><br><a class="label label-default">{{i.type}}</a><label>{{i.time}}</label><br><p>{{i.description}}</p></li>
+                {% endfor %}
+                </ul>
+        </div>
+</div>
+
+
+<script src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+
+$("#question").keydown(function(e){
+        if(e.which==13){
+                $("#search").click();
+        }
+});
+
+</script>
+{% endblock %}
